@@ -1,0 +1,32 @@
+#parentDiv{
+    position: fixed;
+    left: 35%;
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid rgb(19, 19, 77);
+    margin-bottom: 100px;
+}
+
+#parentDiv > div{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(147, 195, 242);
+    margin: 1px;
+}
+
+#parentDiv > div:hover{
+    cursor:pointer
+}
+
+#parentDiv > div h1{
+    text-align: center;
+    color: black;
+}
+
+.ans{
+    margin-top: 30px;
+}
